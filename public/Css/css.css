@@ -1,0 +1,171 @@
+.bg-main{
+    background: #F18620;
+}
+.bg-form{
+    background: #DBDDE0;
+}
+.navbar-foot{
+    background: darkgray;
+    color: white;
+}
+label{
+    margin: 0 auto;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 17px;
+}
+.label-cart{
+    padding: 0px 2px 0px 2px;
+    background: white;
+    color: #F18620;
+    border-radius: 2px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.a-blue{
+    color: blue;
+    text-decoration: underline;
+}
+a:hover{
+    text-decoration: none;
+}
+.p-footer{
+    font-size: 14px;
+}
+.p-login{
+    font-size: 25px;
+    font-weight: bold;
+}
+.menu{
+    background: #F18620;
+    color: white;
+}
+.menu:hover{
+    background: white;
+    color: #F18620;
+}
+.t-tittle{
+    font-size: 20px;
+    color: black;
+    padding-bottom: 1px;
+    font-weight: bold;
+}
+.btn-login{
+    background: #111;
+    color: #111;
+}
+/*Menu*/
+.main_menu{
+    margin: 0 auto;
+}
+ul li{
+    list-style: none;
+}
+.item-menu{
+    color: white;
+    text-align: center;
+}
+#head{
+    background: #F18620;
+}
+.main_menu>li{
+    float: left;
+    border-right: 1px solid #E8E8E8;
+}
+.main_menu>li:last-child{
+    border-right :none;
+}
+.main_menu li{
+    position: relative;
+}
+.main_menu>li a{
+    display: block;
+    text-transform: none;
+    padding: 10px;
+}
+.main_menu>li>a{
+    text-transform: uppercase;
+    display: block;
+    padding: 20px;
+}
+.main_menu li .sub_menu{
+    position: absolute;
+    display: none;
+    width: 250px;
+    background: #f5f5f5;
+    top: 0px;
+    left: 100%;
+}
+.icon-fake{
+    font-size: 50px;
+    color: #F18620;
+}
+.main_menu li:hover>.sub_menu{
+    display: block;
+}
+.main_menu>li>.sub_menu{
+    top: 55px;
+    position: absolute;
+    left: 0px;
+}
+.main_menu li:hover{
+    background: #DBDDE0;
+    color: #F18620;
+}
+/*hinh anh san pham,them vao gio hang*/
+.image-shoe{
+    position: relative;
+}
+.image{
+    opacity: 1;
+    display: block;
+    width: 90%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    margin: 5px 0px 0px 10px;
+}
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-40%, -40%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.image-shoe:hover .image {
+    opacity: 0.3;
+}
+.image-shoe:hover .middle {
+    opacity: 1;
+}
+.text {
+    background-color: #F18620;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+}
+
+.product{
+    width: 220px;
+    background: white;
+    border: solid 1px gray;
+    margin-bottom: 20px;
+    margin-right: 2px;
+}
+.info-shoe{
+    margin-left: 10px;
+}
+.p-name-product{
+    font-weight: bold;
+    font-size: 13px;
+}
+.p-price-product{
+    font-weight: bold;
+    font-size: 13px;
+    color: #F18620;
+}
